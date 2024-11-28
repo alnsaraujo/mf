@@ -1,1 +1,3 @@
-export default function Button(): import("react/jsx-runtime").JSX.Element;
+export default function Button({ onClick }: {
+    onClick: () => void;
+}): import("react/jsx-runtime").JSX.Element;
